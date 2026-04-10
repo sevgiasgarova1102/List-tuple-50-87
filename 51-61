@@ -1,0 +1,52 @@
+# 51 
+lst = [1, 2, 3]
+lst.append(4)
+print(lst)  
+
+# 52
+lst = [1, 2, 3]
+lst.clear()
+print(lst) 
+
+# 53 
+lst = [1, 2, 3]
+new_lst = lst.copy()
+print(new_lst)  
+
+# 54 
+lst = [1, 2, 2, 3, 2]
+print(lst.count(2))
+
+# 55 
+lst = [1, 2]
+lst.extend([3, 4])
+print(lst) 
+
+# 56
+lst = [10, 20, 30]
+print(lst.index(20))  
+
+# 57 
+lst = [1, 2, 3]
+lst.insert(1, 99)
+print(lst) 
+
+# 58 
+lst = [1, 2, 3]
+lst.pop()
+print(lst) 
+
+# 59 
+lst = [1, 2, 3, 2]
+lst.remove(2)
+print(lst) 
+
+# 60 
+lst = [1, 2, 3]
+lst.reverse()
+print(lst)  
+
+# 61 
+lst = [3, 1, 2]
+lst.sort()
+print(lst) 
